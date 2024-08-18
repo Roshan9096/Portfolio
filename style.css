@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.intro-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+
+.avatar {
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #800080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.intro {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.intro-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.skills {
+    background-color: #fff;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+}
+
+.skills h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill-box {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+}
+
+.projects {
+    background-color: #fff;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+}
+
+.projects h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.projects ul {
+    max-width: 900px;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+.projects li {
+    margin-bottom: 15px;
+}
+
+.recommendations {
+    background-color: #fff;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+}
+
+.recommendations h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.recommendation-box {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 700px;
+    text-align: center;
+}
+
+footer {
+    background-color: #800080;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
